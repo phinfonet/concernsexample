@@ -1,0 +1,24 @@
+p#notice = notice
+
+p
+  strong Title:
+  = @event.title
+p
+  strong Category:
+  = @event.category
+p
+  strong Description:
+  = @event.description
+p
+  strong Seo title:
+  = @event.seo_title
+p
+  strong Seo category:
+  = @event.seo_category
+p
+  strong Seo description:
+  = @event.seo_description
+
+= link_to 'Edit', edit_event_path(@event)
+'|
+= link_to 'Back', events_path

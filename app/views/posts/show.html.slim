@@ -1,0 +1,24 @@
+p#notice = notice
+
+p
+  strong Title:
+  = @post.title
+p
+  strong Category:
+  = @post.category
+p
+  strong Description:
+  = @post.description
+p
+  strong Seo title:
+  = @post.seo_title
+p
+  strong Seo category:
+  = @post.seo_category
+p
+  strong Seo description:
+  = @post.seo_description
+
+= link_to 'Edit', edit_post_path(@post)
+'|
+= link_to 'Back', posts_path
