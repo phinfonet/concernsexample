@@ -1,6 +1,8 @@
 # concerns_example
 
-This project is a [Rails](http://rubyonrails.org/) application used to SOMETHING.
+This project is a [Rails](http://rubyonrails.org/) application used to be a post example.
+
+if you want to read the post, the same is published in [HE:labs Blog](http://www.helabs.com.br/blog/)
 
 ## Dependencies
 
